@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 spec.name = "HDOPromise"
 spec.version = "1.0.0"
 spec.summary = "Promise/A+ spec implementation"
-spec.homepage = "https://github.com/dnichols/HDOPromise"
+spec.homepage = "https://github.com/dannichols/HDOPromise"
 spec.license = { type: 'MIT', file: 'LICENSE' }
 spec.authors = { "Dan Nichols" => 'dan.nicho@gmail.com' }
 pch_HDO = <<-EOS
@@ -24,7 +24,7 @@ spec.osx.deployment_target = '10.9'
 spec.watchos.deployment_target = '2.0'
 spec.tvos.deployment_target = '9.0'
 
-spec.source = { git: "https://github.com/dnichols/HDOPromise.git", tag: "v#{spec.version}", submodules: true }
+spec.source = { git: "https://github.com/dannichols/HDOPromise.git", tag: "v#{spec.version}", submodules: true }
 spec.source_files = "HDOPromise/HDOPromise/**/*.{h,swift}"
 
 end
