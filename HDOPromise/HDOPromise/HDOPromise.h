@@ -6,7 +6,7 @@
 //  Copyright © 2016 Hey Danno. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for HDOPromise.
 FOUNDATION_EXPORT double HDOPromiseVersionNumber;

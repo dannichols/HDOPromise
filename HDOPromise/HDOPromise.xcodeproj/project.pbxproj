@@ -41,6 +41,7 @@
 		1870BD0A1CE8F7F000F54B6E /* HDOPromiseWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HDOPromiseWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1870BD0C1CE8F7F100F54B6E /* HDOPromiseWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDOPromiseWatch.h; sourceTree = "<group>"; };
 		1870BD0E1CE8F7F100F54B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1870BD1A1CE8FCA600F54B6E /* HDOPromise.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = HDOPromise.podspec; path = ../HDOPromise.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		1870BCBD1CE8F25400F54B6E = {
 			isa = PBXGroup;
 			children = (
+				1870BD1A1CE8FCA600F54B6E /* HDOPromise.podspec */,
 				1870BCC91CE8F25400F54B6E /* HDOPromise */,
 				1870BCD51CE8F25400F54B6E /* HDOPromiseTests */,
 				1870BCE91CE8F39600F54B6E /* HDOPromiseTV */,
