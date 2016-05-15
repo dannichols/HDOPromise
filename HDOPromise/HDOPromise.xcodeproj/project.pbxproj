@@ -31,7 +31,6 @@
 		1870BCD61CE8F25400F54B6E /* HDOPromiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDOPromiseTests.swift; sourceTree = "<group>"; };
 		1870BCD81CE8F25400F54B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1870BCE11CE8F26A00F54B6E /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
-		1870BD1A1CE8FCA600F54B6E /* HDOPromise.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = HDOPromise.podspec; path = ../HDOPromise.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +55,6 @@
 		1870BCBD1CE8F25400F54B6E = {
 			isa = PBXGroup;
 			children = (
-				1870BD1A1CE8FCA600F54B6E /* HDOPromise.podspec */,
 				1870BCC91CE8F25400F54B6E /* HDOPromise */,
 				1870BCD51CE8F25400F54B6E /* HDOPromiseTests */,
 				1870BCC81CE8F25400F54B6E /* Products */,
@@ -130,6 +128,7 @@
 				1870BCCD1CE8F25400F54B6E /* Sources */,
 				1870BCCE1CE8F25400F54B6E /* Frameworks */,
 				1870BCCF1CE8F25400F54B6E /* Resources */,
+				1870BD201CE9196000F54B6E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -193,6 +192,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1870BD201CE9196000F54B6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1870BCC21CE8F25400F54B6E /* Sources */ = {
@@ -389,6 +404,7 @@
 				1870BCDD1CE8F25400F54B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1870BCDE1CE8F25400F54B6E /* Build configuration list for PBXNativeTarget "HDOPromiseTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +413,7 @@
 				1870BCE01CE8F25400F54B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
