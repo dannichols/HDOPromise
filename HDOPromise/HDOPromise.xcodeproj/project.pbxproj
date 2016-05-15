@@ -11,6 +11,10 @@
 		1870BCD21CE8F25400F54B6E /* HDOPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1870BCC71CE8F25400F54B6E /* HDOPromise.framework */; };
 		1870BCD71CE8F25400F54B6E /* HDOPromiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870BCD61CE8F25400F54B6E /* HDOPromiseTests.swift */; };
 		1870BCE21CE8F26A00F54B6E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870BCE11CE8F26A00F54B6E /* Promise.swift */; };
+		1870BCEB1CE8F39600F54B6E /* HDOPromiseTV.h in Headers */ = {isa = PBXBuildFile; fileRef = 1870BCEA1CE8F39600F54B6E /* HDOPromiseTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1870BCFF1CE8F43400F54B6E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870BCE11CE8F26A00F54B6E /* Promise.swift */; };
+		1870BD0D1CE8F7F100F54B6E /* HDOPromiseWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 1870BD0C1CE8F7F100F54B6E /* HDOPromiseWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1870BD121CE8F7FD00F54B6E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870BCE11CE8F26A00F54B6E /* Promise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,12 @@
 		1870BCD61CE8F25400F54B6E /* HDOPromiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDOPromiseTests.swift; sourceTree = "<group>"; };
 		1870BCD81CE8F25400F54B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1870BCE11CE8F26A00F54B6E /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		1870BCE81CE8F39600F54B6E /* HDOPromiseTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HDOPromiseTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1870BCEA1CE8F39600F54B6E /* HDOPromiseTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDOPromiseTV.h; sourceTree = "<group>"; };
+		1870BCEC1CE8F39700F54B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1870BD0A1CE8F7F000F54B6E /* HDOPromiseWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HDOPromiseWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1870BD0C1CE8F7F100F54B6E /* HDOPromiseWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDOPromiseWatch.h; sourceTree = "<group>"; };
+		1870BD0E1CE8F7F100F54B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1870BCE41CE8F39600F54B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870BD061CE8F7F000F54B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +81,8 @@
 			children = (
 				1870BCC91CE8F25400F54B6E /* HDOPromise */,
 				1870BCD51CE8F25400F54B6E /* HDOPromiseTests */,
+				1870BCE91CE8F39600F54B6E /* HDOPromiseTV */,
+				1870BD0B1CE8F7F100F54B6E /* HDOPromiseWatch */,
 				1870BCC81CE8F25400F54B6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +92,8 @@
 			children = (
 				1870BCC71CE8F25400F54B6E /* HDOPromise.framework */,
 				1870BCD11CE8F25400F54B6E /* HDOPromiseTests.xctest */,
+				1870BCE81CE8F39600F54B6E /* HDOPromiseTV.framework */,
+				1870BD0A1CE8F7F000F54B6E /* HDOPromiseWatch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +117,24 @@
 			path = HDOPromiseTests;
 			sourceTree = "<group>";
 		};
+		1870BCE91CE8F39600F54B6E /* HDOPromiseTV */ = {
+			isa = PBXGroup;
+			children = (
+				1870BCEA1CE8F39600F54B6E /* HDOPromiseTV.h */,
+				1870BCEC1CE8F39700F54B6E /* Info.plist */,
+			);
+			path = HDOPromiseTV;
+			sourceTree = "<group>";
+		};
+		1870BD0B1CE8F7F100F54B6E /* HDOPromiseWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1870BD0C1CE8F7F100F54B6E /* HDOPromiseWatch.h */,
+				1870BD0E1CE8F7F100F54B6E /* Info.plist */,
+			);
+			path = HDOPromiseWatch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -97,6 +143,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1870BCCB1CE8F25400F54B6E /* HDOPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870BCE51CE8F39600F54B6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1870BCEB1CE8F39600F54B6E /* HDOPromiseTV.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870BD071CE8F7F000F54B6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1870BD0D1CE8F7F100F54B6E /* HDOPromiseWatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +201,42 @@
 			productReference = 1870BCD11CE8F25400F54B6E /* HDOPromiseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1870BCE71CE8F39600F54B6E /* HDOPromiseTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1870BCF91CE8F39700F54B6E /* Build configuration list for PBXNativeTarget "HDOPromiseTV" */;
+			buildPhases = (
+				1870BCE31CE8F39600F54B6E /* Sources */,
+				1870BCE41CE8F39600F54B6E /* Frameworks */,
+				1870BCE51CE8F39600F54B6E /* Headers */,
+				1870BCE61CE8F39600F54B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDOPromiseTV;
+			productName = HDOPromiseTV;
+			productReference = 1870BCE81CE8F39600F54B6E /* HDOPromiseTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1870BD091CE8F7F000F54B6E /* HDOPromiseWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1870BD0F1CE8F7F100F54B6E /* Build configuration list for PBXNativeTarget "HDOPromiseWatch" */;
+			buildPhases = (
+				1870BD051CE8F7F000F54B6E /* Sources */,
+				1870BD061CE8F7F000F54B6E /* Frameworks */,
+				1870BD071CE8F7F000F54B6E /* Headers */,
+				1870BD081CE8F7F000F54B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDOPromiseWatch;
+			productName = HDOPromiseWatch;
+			productReference = 1870BD0A1CE8F7F000F54B6E /* HDOPromiseWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +251,12 @@
 						CreatedOnToolsVersion = 7.3;
 					};
 					1870BCD01CE8F25400F54B6E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1870BCE71CE8F39600F54B6E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1870BD091CE8F7F000F54B6E = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -171,6 +275,8 @@
 			targets = (
 				1870BCC61CE8F25400F54B6E /* HDOPromise */,
 				1870BCD01CE8F25400F54B6E /* HDOPromiseTests */,
+				1870BCE71CE8F39600F54B6E /* HDOPromiseTV */,
+				1870BD091CE8F7F000F54B6E /* HDOPromiseWatch */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +290,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1870BCCF1CE8F25400F54B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870BCE61CE8F39600F54B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870BD081CE8F7F000F54B6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +326,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1870BCD71CE8F25400F54B6E /* HDOPromiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870BCE31CE8F39600F54B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1870BCFF1CE8F43400F54B6E /* Promise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870BD051CE8F7F000F54B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1870BD121CE8F7FD00F54B6E /* Promise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +457,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HDOPromise/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heydanno.HDOPromise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +476,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HDOPromise/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heydanno.HDOPromise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +501,86 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heydanno.HDOPromiseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1870BCFA1CE8F39700F54B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HDOPromiseTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heydanno.HDOPromiseTV;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		1870BCFB1CE8F39700F54B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HDOPromiseTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heydanno.HDOPromiseTV;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		1870BD101CE8F7F100F54B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HDOPromiseWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heydanno.HDOPromiseWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		1870BD111CE8F7F100F54B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HDOPromiseWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heydanno.HDOPromiseWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
 		};
@@ -391,6 +609,22 @@
 			buildConfigurations = (
 				1870BCDF1CE8F25400F54B6E /* Debug */,
 				1870BCE01CE8F25400F54B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1870BCF91CE8F39700F54B6E /* Build configuration list for PBXNativeTarget "HDOPromiseTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1870BCFA1CE8F39700F54B6E /* Debug */,
+				1870BCFB1CE8F39700F54B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1870BD0F1CE8F7F100F54B6E /* Build configuration list for PBXNativeTarget "HDOPromiseWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1870BD101CE8F7F100F54B6E /* Debug */,
+				1870BD111CE8F7F100F54B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
